@@ -19,10 +19,11 @@ class WinLossTableViewCell: UITableViewCell {
     // MARK: - Lifecicle
     override func awakeFromNib() {
         super.awakeFromNib()
-        titleLabel.text = "Выигрыши/проигрыши по букмерекам"
+        titleLabel.text = "Выигрыши/проигрыши по букмекерам"
         self.tableView.register(UINib(nibName: "SecondTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.tableView.isScrollEnabled = false
     }
 }
 

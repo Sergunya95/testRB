@@ -17,8 +17,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="276"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slv-aC-unT">
-                        <rect key="frame" x="16" y="16" width="41.5" height="35"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slv-aC-unT">
+                        <rect key="frame" x="16" y="16" width="288" height="35"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -35,6 +35,7 @@
                     <constraint firstAttribute="trailing" secondItem="fJk-IC-qwI" secondAttribute="trailing" id="JV4-t3-sCf"/>
                     <constraint firstAttribute="bottom" secondItem="fJk-IC-qwI" secondAttribute="bottom" id="UzM-b8-sRN"/>
                     <constraint firstItem="slv-aC-unT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="XLl-Mw-aPO"/>
+                    <constraint firstAttribute="trailing" secondItem="slv-aC-unT" secondAttribute="trailing" constant="16" id="Y1a-iN-QZr"/>
                     <constraint firstItem="slv-aC-unT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="cuz-1K-9lb"/>
                     <constraint firstItem="fJk-IC-qwI" firstAttribute="top" secondItem="slv-aC-unT" secondAttribute="bottom" id="gad-2e-FpN"/>
                     <constraint firstItem="fJk-IC-qwI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wuX-Dm-bJJ"/>

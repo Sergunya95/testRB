@@ -21,7 +21,7 @@ class ModelBookmakers {
     
     // MARK: - Methods
     func setup() {
-        let firstBookmaker = Bookmaker(image: UIImage(named: "logo1")!, wins: 5, loss: 6, returns: 7)
+        let firstBookmaker = Bookmaker(image: UIImage(named: "logo1")!, wins: 5, loss: 10, returns: 5)
         let secondBookmaker = Bookmaker(image: UIImage(named: "logo2")!, wins: 10, loss: 7, returns: 4)
         bookmakers.append(firstBookmaker)
         bookmakers.append(secondBookmaker)

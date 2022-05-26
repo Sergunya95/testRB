@@ -35,9 +35,9 @@ class SecondTableViewCell: UITableViewCell {
         winBetsCount.text = "\(Int(bookmaker.wins))(\(Int((bookmaker.wins/Double(betsCount)) * 100))%)"
         lossBetsCount.text = "\(Int(bookmaker.loss))(\(Int((bookmaker.loss / Double(betsCount)) * 100))%)"
         returnBetsCount.text = "\(Int(bookmaker.returns))(\(Int((bookmaker.returns / Double(betsCount)) * 100))%)"
-        greenLineWidth.constant = (view.frame.width) * CGFloat((bookmaker.wins / Double(betsCount)))
-        redLineWidth.constant = (view.frame.width) * CGFloat((bookmaker.loss / Double(betsCount)))
-        grayLineWidth.constant = (frame.width) * CGFloat((bookmaker.returns / Double(betsCount)))
+        greenLineWidth.constant = (UIScreen.main.bounds.width - 40) * CGFloat((bookmaker.wins / Double(betsCount)))
+        redLineWidth.constant = (UIScreen.main.bounds.width - 40) * CGFloat((bookmaker.loss / Double(betsCount)))
+        grayLineWidth.constant = (UIScreen.main.bounds.width - 40) * CGFloat((bookmaker.returns / Double(betsCount)))
     }
 }
 
