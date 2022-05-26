@@ -14,6 +14,14 @@
 		18195C03283F80E1002E6937 /* testRB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18195C01283F80E1002E6937 /* testRB.xcdatamodeld */; };
 		18195C05283F80E3002E6937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18195C04283F80E3002E6937 /* Assets.xcassets */; };
 		18195C08283F80E3002E6937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18195C06283F80E3002E6937 /* LaunchScreen.storyboard */; };
+		18195C11283F8126002E6937 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C0F283F8126002E6937 /* SecondTableViewCell.swift */; };
+		18195C12283F8126002E6937 /* SecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18195C10283F8126002E6937 /* SecondTableViewCell.xib */; };
+		18195C17283FCA4B002E6937 /* WinLossTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C15283FCA4B002E6937 /* WinLossTableViewCell.swift */; };
+		18195C18283FCA4B002E6937 /* WinLossTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18195C16283FCA4B002E6937 /* WinLossTableViewCell.xib */; };
+		18195C1A283FD1EE002E6937 /* Bookmaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C19283FD1EE002E6937 /* Bookmaker.swift */; };
+		18195C1C283FD386002E6937 /* ModelBookmakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C1B283FD386002E6937 /* ModelBookmakers.swift */; };
+		18195C21283FE4AA002E6937 /* BestOddsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C1F283FE4AA002E6937 /* BestOddsTableViewCell.swift */; };
+		18195C22283FE4AA002E6937 /* BestOddsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18195C20283FE4AA002E6937 /* BestOddsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		18195C04283F80E3002E6937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18195C07283F80E3002E6937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18195C09283F80E3002E6937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18195C0F283F8126002E6937 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		18195C10283F8126002E6937 /* SecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
+		18195C15283FCA4B002E6937 /* WinLossTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLossTableViewCell.swift; sourceTree = "<group>"; };
+		18195C16283FCA4B002E6937 /* WinLossTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinLossTableViewCell.xib; sourceTree = "<group>"; };
+		18195C19283FD1EE002E6937 /* Bookmaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmaker.swift; sourceTree = "<group>"; };
+		18195C1B283FD386002E6937 /* ModelBookmakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBookmakers.swift; sourceTree = "<group>"; };
+		18195C1F283FE4AA002E6937 /* BestOddsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestOddsTableViewCell.swift; sourceTree = "<group>"; };
+		18195C20283FE4AA002E6937 /* BestOddsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestOddsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,8 @@
 				18195BF8283F80E1002E6937 /* AppDelegate.swift */,
 				18195BFA283F80E1002E6937 /* SceneDelegate.swift */,
 				18195BFC283F80E1002E6937 /* ViewController.swift */,
+				18195C23284005C9002E6937 /* Model */,
+				18195C1E283FE423002E6937 /* Cells */,
 				18195BFE283F80E1002E6937 /* Main.storyboard */,
 				18195C04283F80E3002E6937 /* Assets.xcassets */,
 				18195C06283F80E3002E6937 /* LaunchScreen.storyboard */,
@@ -68,6 +86,28 @@
 				18195C01283F80E1002E6937 /* testRB.xcdatamodeld */,
 			);
 			path = testRB;
+			sourceTree = "<group>";
+		};
+		18195C1E283FE423002E6937 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18195C1F283FE4AA002E6937 /* BestOddsTableViewCell.swift */,
+				18195C20283FE4AA002E6937 /* BestOddsTableViewCell.xib */,
+				18195C15283FCA4B002E6937 /* WinLossTableViewCell.swift */,
+				18195C16283FCA4B002E6937 /* WinLossTableViewCell.xib */,
+				18195C0F283F8126002E6937 /* SecondTableViewCell.swift */,
+				18195C10283F8126002E6937 /* SecondTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18195C23284005C9002E6937 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18195C19283FD1EE002E6937 /* Bookmaker.swift */,
+				18195C1B283FD386002E6937 /* ModelBookmakers.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +171,9 @@
 				18195C08283F80E3002E6937 /* LaunchScreen.storyboard in Resources */,
 				18195C05283F80E3002E6937 /* Assets.xcassets in Resources */,
 				18195C00283F80E1002E6937 /* Main.storyboard in Resources */,
+				18195C18283FCA4B002E6937 /* WinLossTableViewCell.xib in Resources */,
+				18195C12283F8126002E6937 /* SecondTableViewCell.xib in Resources */,
+				18195C22283FE4AA002E6937 /* BestOddsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18195C21283FE4AA002E6937 /* BestOddsTableViewCell.swift in Sources */,
 				18195BFD283F80E1002E6937 /* ViewController.swift in Sources */,
+				18195C11283F8126002E6937 /* SecondTableViewCell.swift in Sources */,
 				18195BF9283F80E1002E6937 /* AppDelegate.swift in Sources */,
+				18195C1A283FD1EE002E6937 /* Bookmaker.swift in Sources */,
 				18195BFB283F80E1002E6937 /* SceneDelegate.swift in Sources */,
 				18195C03283F80E1002E6937 /* testRB.xcdatamodeld in Sources */,
+				18195C17283FCA4B002E6937 /* WinLossTableViewCell.swift in Sources */,
+				18195C1C283FD386002E6937 /* ModelBookmakers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
