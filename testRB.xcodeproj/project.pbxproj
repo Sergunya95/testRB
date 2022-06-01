@@ -22,9 +22,14 @@
 		18195C1C283FD386002E6937 /* ModelBookmakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C1B283FD386002E6937 /* ModelBookmakers.swift */; };
 		18195C21283FE4AA002E6937 /* BestOddsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C1F283FE4AA002E6937 /* BestOddsTableViewCell.swift */; };
 		18195C22283FE4AA002E6937 /* BestOddsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18195C20283FE4AA002E6937 /* BestOddsTableViewCell.xib */; };
+		18195C4B284685E7002E6937 /* SKBestOddsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C4A284685E6002E6937 /* SKBestOddsTableViewCell.swift */; };
+		18195C4D2846BAAA002E6937 /* SKWinLossTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C4C2846BAAA002E6937 /* SKWinLossTableViewCell.swift */; };
+		18195C4F2846C3CB002E6937 /* SKSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18195C4E2846C3CB002E6937 /* SKSecondTableViewCell.swift */; };
+		E401FCBAF7B5A669FC14E1EB /* Pods_testRB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2FA4560DE434F1A48DE635 /* Pods_testRB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09FAEED908F9CBEF1FFCB0DD /* Pods-testRB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testRB.debug.xcconfig"; path = "Target Support Files/Pods-testRB/Pods-testRB.debug.xcconfig"; sourceTree = "<group>"; };
 		18195BF5283F80E1002E6937 /* testRB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18195BF8283F80E1002E6937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18195BFA283F80E1002E6937 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +47,11 @@
 		18195C1B283FD386002E6937 /* ModelBookmakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBookmakers.swift; sourceTree = "<group>"; };
 		18195C1F283FE4AA002E6937 /* BestOddsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestOddsTableViewCell.swift; sourceTree = "<group>"; };
 		18195C20283FE4AA002E6937 /* BestOddsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestOddsTableViewCell.xib; sourceTree = "<group>"; };
+		18195C4A284685E6002E6937 /* SKBestOddsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKBestOddsTableViewCell.swift; sourceTree = "<group>"; };
+		18195C4C2846BAAA002E6937 /* SKWinLossTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKWinLossTableViewCell.swift; sourceTree = "<group>"; };
+		18195C4E2846C3CB002E6937 /* SKSecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSecondTableViewCell.swift; sourceTree = "<group>"; };
+		2A8F997E876B771A80B7F8CD /* Pods-testRB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testRB.release.xcconfig"; path = "Target Support Files/Pods-testRB/Pods-testRB.release.xcconfig"; sourceTree = "<group>"; };
+		2D2FA4560DE434F1A48DE635 /* Pods_testRB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testRB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E401FCBAF7B5A669FC14E1EB /* Pods_testRB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B883A7EB7CDF968DD3ED3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2FA4560DE434F1A48DE635 /* Pods_testRB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18195BEC283F80E1002E6937 = {
 			isa = PBXGroup;
 			children = (
 				18195BF7283F80E1002E6937 /* testRB */,
 				18195BF6283F80E1002E6937 /* Products */,
+				BE76D19D984D7BE21F8CA9A3 /* Pods */,
+				12B883A7EB7CDF968DD3ED3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +112,7 @@
 		18195C1E283FE423002E6937 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				18195C4928468595002E6937 /* CellsSnapKit */,
 				18195C1F283FE4AA002E6937 /* BestOddsTableViewCell.swift */,
 				18195C20283FE4AA002E6937 /* BestOddsTableViewCell.xib */,
 				18195C15283FCA4B002E6937 /* WinLossTableViewCell.swift */,
@@ -110,6 +132,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		18195C4928468595002E6937 /* CellsSnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				18195C4A284685E6002E6937 /* SKBestOddsTableViewCell.swift */,
+				18195C4C2846BAAA002E6937 /* SKWinLossTableViewCell.swift */,
+				18195C4E2846C3CB002E6937 /* SKSecondTableViewCell.swift */,
+			);
+			path = CellsSnapKit;
+			sourceTree = "<group>";
+		};
+		BE76D19D984D7BE21F8CA9A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09FAEED908F9CBEF1FFCB0DD /* Pods-testRB.debug.xcconfig */,
+				2A8F997E876B771A80B7F8CD /* Pods-testRB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18195C0C283F80E3002E6937 /* Build configuration list for PBXNativeTarget "testRB" */;
 			buildPhases = (
+				A04F9E6576008DA0A6A5F140 /* [CP] Check Pods Manifest.lock */,
 				18195BF1283F80E1002E6937 /* Sources */,
 				18195BF2283F80E1002E6937 /* Frameworks */,
 				18195BF3283F80E1002E6937 /* Resources */,
+				9A7F5B42532709647ABE3A08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +222,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A7F5B42532709647ABE3A08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testRB/Pods-testRB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testRB/Pods-testRB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testRB/Pods-testRB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04F9E6576008DA0A6A5F140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testRB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18195BF1283F80E1002E6937 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -188,11 +273,14 @@
 				18195BFD283F80E1002E6937 /* ViewController.swift in Sources */,
 				18195C11283F8126002E6937 /* SecondTableViewCell.swift in Sources */,
 				18195BF9283F80E1002E6937 /* AppDelegate.swift in Sources */,
+				18195C4D2846BAAA002E6937 /* SKWinLossTableViewCell.swift in Sources */,
 				18195C1A283FD1EE002E6937 /* Bookmaker.swift in Sources */,
 				18195BFB283F80E1002E6937 /* SceneDelegate.swift in Sources */,
+				18195C4F2846C3CB002E6937 /* SKSecondTableViewCell.swift in Sources */,
 				18195C03283F80E1002E6937 /* testRB.xcdatamodeld in Sources */,
 				18195C17283FCA4B002E6937 /* WinLossTableViewCell.swift in Sources */,
 				18195C1C283FD386002E6937 /* ModelBookmakers.swift in Sources */,
+				18195C4B284685E7002E6937 /* SKBestOddsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +422,7 @@
 		};
 		18195C0D283F80E3002E6937 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FAEED908F9CBEF1FFCB0DD /* Pods-testRB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +451,7 @@
 		};
 		18195C0E283F80E3002E6937 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8F997E876B771A80B7F8CD /* Pods-testRB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
